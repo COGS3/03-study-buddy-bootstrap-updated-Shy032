@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/58339e1429.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>StudyBuddy - Find Your Study Partner</title>
+    <meta name="description" content="StudyBuddy helps you find study partners, improve grades, and reduce stress. Join us today!">
+    <meta name="keywords" content="study, buddy, education, learning, study partners">
+    <link rel="icon" type="image/x-icon" href="images/studyicon.png">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+
+    <section id="title" class="section">
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light" aria-label="Main navigation">
+                <a class="navbar-brand" href="#"><img src="images/studyicon.png" class="sicon"> studyBuddy</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#info" class="nav-link">Infos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#peer-instruction" class="nav-link">Content</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pricing" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#cta" class="nav-link">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Meet new and interesting study buddies.</h1>
+                    <button type="button" class="btn btn-dark btn-lg download-button" aria-label="Download from Apple Store"><i class="fa-brands fa-apple"></i> Download</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg download-button" aria-label="Download from Google Play"><i class="fa-brands fa-google-play"></i> Download</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/iphone-400.png" alt="iphone with study buddy app" class="img-fluid title-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="info" class="section">
+        <div class="container my-4">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="studyBuddyVideo" class="embed-responsive-item" src="https://www.youtube.com/embed/MIkzU1D9bO4?rel=0&autoplay=1" allow="autoplay" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Chat Button -->
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+    <!-- Chat Popup Form -->
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h5><img src="images/chatagent.png" alt="agent" class="sicon">Chat with our agent</h5>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+    <!-- Features -->
+    <section id="features" class="section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 feature-box">
+                    <i class="fa fa-check-circle fa-3x icon"></i>
+                    <h3>Easy to use.</h3>
+                    <p>So easy to use, you can do it in your sleep!</p>
+                </div>
+                <div class="col-lg-4 feature-box">
+                    <i class="fa fa-users fa-3x icon"></i>
+                    <h3>Fantastic Students</h3>
+                    <p>We have study buddies for all majors.</p>
+                </div>
+                <div class="col-lg-4 feature-box">
+                    <i class="fa fa-heart fa-3x icon"></i>
+                    <h3>Guaranteed to always have a study buddy.</h3>
+                    <p>You'll never have to study alone again!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section text-center">
+        <div class="container">
+            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-color: #00bcd4">
+                        <h2>I no longer have to study alone. No more cramming. Lower stress!</h2>
+                        <img src="images/study-img-300.jpg" class="img-fluid testimonial-image">
+                        <em>Cindy, UCSD</em>
+                        <p><strong>Background:</strong> Cindy is a computer science major at UCSD. She was struggling to find consistent study partners and often found herself cramming alone before exams.</p>
+                        <p><strong>Impact of Study Buddy:</strong> Study Buddy connected Cindy with reliable study partners. She now studies regularly, which has significantly reduced her stress levels and improved her grades.</p>
+                    </div>
+                    <div class="carousel-item" style="background-color: #00bcd4">
+                        <h2>Finally I don't have to study alone! Yippe!</h2>
+                        <img src="images/tamarcus-brown-unsplash.jpg" class="img-fluid testimonial-image">
+                        <em>John, MIT</em>
+                        <p><strong>Background:</strong> John is an engineering student at MIT. He often found it difficult to collaborate with peers due to different schedules and study habits.</p>
+                        <p><strong>Impact of Study Buddy:</strong> With Study Buddy, John was able to find peers with similar schedules and study habits. This has made group projects and study sessions more productive and enjoyable for him.</p>
+                    </div>
+                    <div class="carousel-item" style="background-color: #00bcd4">
+                        <h2>I have made REAL friends, I will have my study buddies all through med school!</h2>
+                        <img src="images/annie-spratt-unsplash.jpg" class="img-fluid testimonial-image">
+                        <em>Emma, Harvard</em>
+                        <p><strong>Background:</strong> Emma is a medical student at Harvard. The intense workload and competitive environment left her feeling isolated and overwhelmed.</p>
+                        <p><strong>Impact of Study Buddy:</strong> Study Buddy helped Emma find a supportive study group. The collaboration and mutual support have not only improved her academic performance but also her overall well-being.</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <img src="images/a-1.png" class="img-fluid testimonial-image">
+            <img src="images/study-smarter-logo.png" class="img-fluid testimonial-image">
+            <img src="images/stellar-grades-academy.png" class="img-fluid testimonial-image">
+            <img src="images/game-one.png" class="img-fluid testimonial-image">
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+    <section id="peer-instruction" class="text-center">
+        <div class="container">
+            <h2>Students learn 30% more when studying with Study Buddy</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/graphs.png" alt="Study Buddy Graph 1" class="img-fluid" width="500" height="300">
+                    <br>
+                    <br>
+                    <img src="images/graphs2.png" alt="Study Buddy Graph 2" class="img-fluid" width="500" height="300">
+                </div>
+                <div class="col-md-6">
+                    <h3>Study Overview</h3>
+                    <p><strong>Problem:</strong> Students often find it difficult to find reliable study partners, leading to ineffective study sessions and poor performance.</p>
+                    <p><strong>Background:</strong> Research indicates that studying with peers can enhance learning, motivation, and retention of information.</p>
+                    <p><strong>Solution:</strong> The Study Buddy app connects students with compatible study partners, facilitating collaborative and effective study sessions.</p>
+                    <p><strong>Methods:</strong> The efficacy of the Study Buddy app was tested with randomized control trials (RCTs) involving 198 middle school students. Half of the students used the Study Buddy app while the other half studied alone.</p>
+                    <p><strong>Results:</strong> Students who used the Study Buddy app showed a significant improvement in their test scores, achieving 30% higher results compared to those who studied alone.</p>
+                    <a href="doc/spdf.pdf" class="btn btn-outline-secondary btn-lg">Read the efficacy study</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="text-center">
+        <div class="container">
+            <h2>A Plan for Every Student's Budget</h2>
+            <p>Simple and affordable price plans for your learning aspirations.</p>
+    
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header pricing-header">
+                            Honors
+                        </div>
+                        <div class="card-body">
+                            <h2>Free</h2>
+                            <p>5 Matches Per Day</p>
+                            <p>10 Messages Per Day</p>
+                            <p>Unlimited App Usage</p>
+                            <a href="signup.html" class="btn btn-lg btn-block btn-outline-dark">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header pricing-header">
+                            Dean's List
+                        </div>
+                        <div class="card-body">
+                            <h2>$29.99</h2>
+                            <p>Unlimited Matches Per Day</p>
+                            <p>Unlimited Messages Per Day</p>
+                            <p>Unlimited App Usage</p>
+                            <a href="signup.html" class="btn btn-lg btn-block btn-dark">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-header pricing-header">
+                            Magna Cum Laude Honors
+                        </div>
+                        <div class="card-body">
+                            <h2>$59.99</h2>
+                            <p>Priority Listing</p>
+                            <p>Unlimited Matches Per Day</p>
+                            <p>Unlimited Messages Per Day</p>
+                            <p>Unlimited App Usage</p>
+                            <a href="signup.html" class="btn btn-lg btn-block btn-dark">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section id="cta" class="section text-center">
+        <div class="container">
+            <h3 class="cta-heading">Find your bestest study buddy today! Your best learning awaits.</h3>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section text-center">
+        <div class="container">
+            <br>
+            <br>
+            <h3 class="cta-heading">Subscribe to our Study Newsletter</h3>
+            <form action="/subscribe" method="post">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="section text-center">
+        <div class="container">
+            <p>&copy; 2023 studyBuddy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back-to-Top Button -->
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Top</button>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+        // Back-to-Top Button Functionality
+        var mybutton = document.getElementById("backToTopBtn");
+
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Hide loader on page load
+        window.onload = function() {
+            document.getElementById("loader").style.display = "none";
+        };
+    </script>
+</body>
+</html>

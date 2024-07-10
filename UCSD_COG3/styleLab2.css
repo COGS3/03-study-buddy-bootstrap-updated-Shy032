@@ -1,0 +1,46 @@
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #dddd;
+}
+caption {
+    Color:Black;
+    font-size:45px
+}
+p,ul{
+    Font-size: 15px;
+    text-align:center;
+
+}
+
+
+table td:first-child {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #dddd;
+}
+
+td, h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Change the default colors and get reactions while clicking */
+a:link {
+    color: #1a0dab;
+}
+a:visited {
+    color: #660099;
+}
+a:active {
+    color: #d14836;
+}
+a:hover {
+    color: #ff6600;
+    cursor: pointer;
+}

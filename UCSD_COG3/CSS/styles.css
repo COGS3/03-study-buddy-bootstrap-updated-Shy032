@@ -1,0 +1,450 @@
+/* Title Section */
+#title {
+    background-color: #8fdbf2;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.sicon {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    width: 40%;
+    transform: rotate(-15deg);
+    opacity: 0.5;
+    position: relative;
+}
+
+@media (min-width: 1028px) {
+    .title-image {
+        transform: rotate(0);
+        opacity: 1;
+        width: 80%;
+    }
+}
+
+/* Container Fluid */
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Features,info  Section */
+#info {
+    padding: 7% 0;
+    background-color: #ddd;
+    z-index: 10;
+    position: relative;
+}
+
+#features {
+    padding: 7% 0;
+    background-color: #f2f2f2;
+    z-index: 10;
+    position: relative;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-box p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.icon {
+    color: #00bcd4;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #0e67c6;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #00bcd4;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#testimonials h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#testimonials p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+/* Peer Instruction Section */
+#peer-instruction {
+    padding: 7% 15%;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: left;
+}
+
+#peer-instruction h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#peer-instruction h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: #333;
+    margin-top: 1rem;
+}
+
+#peer-instruction p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+#peer-instruction img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+#peer-instruction .btn-outline-secondary {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+#peer-instruction .btn-outline-secondary:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    #peer-instruction {
+        padding: 5% 10%;
+    }
+    #peer-instruction h2 {
+        font-size: 2rem;
+    }
+    #peer-instruction h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 7% 0;
+}
+
+.pricing-header {
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-body h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.card-body p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.card-body button {
+    margin-top: 1.5rem;
+}
+
+/* Z-Index */
+.title-image {
+    z-index: 10;
+}
+
+/* Call To Action */
+#cta {
+    background-color: #00bcd4;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+/* Chat Popup Button */
+.open-button {
+    background-color: #0be6e2;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    z-index: 9999; /* Ensure popup stays on top of every shit */
+}
+
+.open-button:hover {
+    background-color: #3793f6;
+}
+
+/* Chat Popup Form */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #00bcd4;
+    z-index: 9999; /* Ensure popup stays on top of every shit */
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Chat Form Container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    resize: none;
+    min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+    background-color: #00bcd4;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+/* Back to Top Button */
+#backToTopBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    left: 30px; 
+    z-index: 9999; 
+    font-size: 18px; 
+    border: none; 
+    outline: none; 
+    background-color: #0be6e2; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    transition: all 0.3s ease; 
+}
+
+#backToTopBtn:hover {
+    background-color: #2282e8; 
+}
+/* Sign-Up Section */
+#signup {
+    padding: 7% 15%;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+
+#signup h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+#signup .form-group label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+#signup .form-control {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #333;
+}
+
+#signup .btn-primary {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+#signup .btn-primary:hover {
+    background-color: #007bff;
+}
+/* Media Queries */
+@media (max-width: 1028px) {
+    .title-image {
+        transform: rotate(-15deg);
+        opacity: 0.5;
+        width: 50%;
+    }
+    #title {
+        text-align: center;
+    }
+    .download-button {
+        margin: 5% 0;
+    }
+}
+
